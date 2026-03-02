@@ -36,7 +36,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <h1 className="text-2xl font-bold cursor-pointer text-white">
-          Mr <span className="text-blue-500">Green</span>
+          Mr<span className="text-blue-500">Green</span>
         </h1>
 
         {/* Desktop Menu */}
@@ -58,7 +58,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden cursor-pointer z-50" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
+          {isOpen ? "" : <Menu size={28} />}
         </div>
       </div>
 

@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center bg-black text-white px-6 md:px-16">
+    <section id="home" className="min-h-screen flex items-center bg-black text-white px-6 md:px-16">
       
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center w-full">
 
@@ -55,7 +55,7 @@ const Hero = () => {
               <FaFacebook />
             </a>
 
-          </div>
+          </div> 
 
         </div>
 
